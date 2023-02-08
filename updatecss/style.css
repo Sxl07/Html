@@ -1,0 +1,21 @@
+body {
+    background-color: #DEFFFB;
+  }
+
+.f{
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+}
+.line{
+    width: 50%;
+    height: 30px;
+    background-color: darkorange;
+
+}
+
+#equation {
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(7, 255, 7);
+    display: inline;
+}

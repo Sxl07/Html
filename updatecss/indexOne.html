@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--(1)hace que cualquier tipo de caracter de la tabla ascii sea reconocido-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>pagina de elementos</title>
+    <!--(2)uso rel para explicar el tipo de relacion que tiene la imagen importada-->
+    <link rel="icon" href="reverse card.png">
+</head>
+<body>
+    <!--(3)sirve para definir un campo, en el cual se pueden ingresar mas elmentos-->
+    <fieldset>
+        <!--(4)sirve para darle un titulo al campo creado con fieldset-->
+        <legend>
+            Datos estudiantes
+        </legend>
+        <label for="fname">nombre completo:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <!--(5)sirve para para ingresar un elemento de tipo submit pd: no es button :D-->
+        <input type="submit" value="Submit">
+    </fieldset>
+    <br>
+    <br>
+    <!--(6)este sirve para convertir texto en cursiva-->
+    <em>This written in italics</em>
+    <br>
+    (x-4)
+    <!--(7)este sirve para poner superindices-->
+    <sup>2</sup>
+    =x<sup>2</sup>-8x+16
+    <br>
+    <br>
+    elige alguna bebida:
+    <!--(8)sirve para hacer una lista desplegable de opciones-->
+    <select>
+        <!--(9)sirve para darleopciones al select las cuales despues se van a elegir-->
+        <option>
+            Gatorade
+        </option>
+        <option>
+            Agua
+        </option>
+        <option>
+            coca-cola
+        </option>
+        <option>
+            jugo de naranja
+        </option>
+        <option>
+            cerveza
+        </option>
+    </select>
+    <br>
+    <br>
+    <!--(10)este sirve para poner un archivo de tipo audio con sus cnontroles respectivos-->
+    <audio controls class="line">
+        <source src="miau.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <br>
+    <!--(11)este sirve para resaltar un texto-->
+    <mark>este texto esta resaltado</mark>
+    <!--(12)este, al igual que <br> hace un salto de linea-->
+    <br>
+        <!--(13)este hace que el texto se vuelva pequeño-->
+    <small>ahora el texto es pequeño</small>
+    <br>
+    <br>
+    <div id="equation">
+    x<sup>2</sup>-4 = 0    Solutions for X:
+    </div><br>
+        <ul>
+            <!--(14)sub sirve para clocar un subindice-->
+            <li> X<sub>1</sub> = 2 </li>
+            <li> X<sub>2</sub> = -2</li>   
+        </ul>
+        <label for="file">Downloading progress:</label>
+        <!--(15)este sirve para mostrar un barra de progreso, a la cual se le puede modificar el valor-->
+        <progress id="file" value="77" max="100"> 77% </progress>
+    <br>
+    <!--(16) sirve para marcar una foto en un docuemnto-->
+    <figure>
+        <img src="norway.jpg" alt="Norway-Oslo" style="width:20%">
+        <!--(17) este sirve para darle dicho titulo a la foto-->
+        <figcaption>Fig.1 Norway-Oslo</figcaption>
+      </figure>
+    <br>
+    
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" id="a" >
+        +<input type="number" id="b" >
+        =
+        <!--(18)este output sirve para dar un mensaje de salida por medio de una variable precalculada-->
+        <output name="x" for="a b"></output>
+        </form>
+    <br>
+    <!--(19)este sirve para que al momento de poner el mouse sobre la abreviatura, muestre el significado de la abreviatura-->
+    The <abbr title="Fédération Internationale de Football Association">FIFA</abbr> was founded in 1904
+    <br>
+
+    <p>esta frase va de izquierda a derecha.</p>  
+    <!--(20)este sirve para darle la direccion en la que el texto-->
+    <p><bdo dir="rtl">esta frase va derecha a izquierda</bdo></p>  
+    <br>
+    <!--(21) es una lista de descripcion con terminos y descripciones-->
+    <dl>
+        <dt>Cafe</dt>
+        <dd>bebida caliente</dd>
+        <dt>leche</dt>
+        <dd>bebida que puede ser tomada y fria</dd>
+    </dl>
+    <br>
+    My favorite artist is 
+        <!--(22) "del" sirve para tachar y dar a entender que esa palabra se elimina-->
+    <del>cano estremera</del> 
+        <!--(23) "ins" sirve para inserta una palabra de donde una fue tachada-->
+    <ins>bobby valentin</ins>
+    <br>
+    <br>
+    <!--(24)sirve para sacar un cuadro de dialogo-->
+    <dialog open>este es un cuadro de dialogo</dialog>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--(25)sirve para dsctacar la informacion principal-->
+    <main>
+        <h1>Buscadores mas populares</h1>
+        <p>Chrome, Firefox, y Edge son los buscadores mas usados hasa el dia de hoy.</p>
+      <!--(26)sirve para separar el contenido indepedientemente e articulos-->
+        <article>
+          <h2>Google Chrome</h2>
+          <p>Google Chrome es un navegador web desarrollado por Google, lanzado en 2008. Chrome es el navegador web más popular del mundo en la actualidad.</p>
+        </article>
+    </main> 
+    <br>
+    <!--(27) dibuja un circulo-->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="4" fill="red" />
+      </svg>
+    <br>
+    <!--(28) sirve para mostrar y ocultar por medio de una flecha los detalles de algo-->
+    <details>
+        <summary>Universidad de San Buenaventura</summary>
+        <p>Contamos con Acreditación Institucional Multicampus (AIM), un proceso al que se presentan todas las sedes, seccionales y extensiones de una misma Institución de Educación Superior (IES) ante el Consejo Nacional de Acreditación (CNA)</p>
+      </details>
+    <br>
+    <!--(29)este sirve div con atributo align, sirve para acomodar en izq, der, centro o justificado-->
+    <div align="center">
+        <!--(30)este sirve para poner la informacion de contacto-->
+    <address>
+        Escrito por <a>sebastian lopez</a>.<br> 
+        Visitanos en: Universidad de San Buenaventura(Cali-Colombia)<br>
+        Facultad de ingenieria. Ing de sistemas <br>
+        </address>
+    </div>  
+</body>
+</html>
