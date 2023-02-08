@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiasDeLaSemana>
+<Lunes>
+<TipoDeEjercicios>Dia de empuje
+<GruposMuscularesATrabajar>Pecho, Triceps y Hombros
+<Musculo>Pecho: 
+<Ejercicio>Press inclinado con barra</Ejercicio>
+<Ejercicio>Press plano con barra</Ejercicio>
+<Ejercicio>Cruces con polea media</Ejercicio>
+<Ejercicio>Fondos en barras paralelas</Ejercicio>
+</Musculo>
+
+<Musculo>Triceps:
+<Ejercicio>Extensiones en polea</Ejercicio>
+<Ejercicio>extension de triceps por encima de la cabeza</Ejercicio>
+</Musculo>
+
+<Musculo>Hombros:
+<Ejercicio>Vuelos laterales</Ejercicio>
+<Ejercicio>Press militar</Ejercicio>
+<Ejercicio>Pajaros con mancuernas</Ejercicio>
+</Musculo>
+
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Lunes>
+
+<Martes>
+<TipoDeEjercicios>Dia de hale
+<GruposMuscularesATrabajar>Espalda y Biceps
+<Musculo>Espalda
+<Ejercicio>Dominadas</Ejercicio>
+<Ejercicio>Jalones al pecho</Ejercicio>
+<Ejercicio>Remo en polea</Ejercicio>
+<Ejercicio>Rack pulls</Ejercicio>
+</Musculo>
+<Musculo>Biceps
+<Ejercicio>Curl con mancuerna abierto</Ejercicio>
+<Ejercicio>Curl biceps polea baja</Ejercicio>
+<Ejercicio>Curl biceps con barra</Ejercicio>
+</Musculo>
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Martes>
+
+<Miercoles>
+<TipoDeEjercicios>Dia de Pierna
+<GruposMuscularesATrabajar>Piernas (Parte delantera)
+<Musculo>Cuadriceps
+<Ejercicio>Sentadilla con barra libre</Ejercicio>
+<Ejercicio>Extension de cuadriceps</Ejercicio>
+<Ejercicio>Prensa</Ejercicio>
+</Musculo>
+<Musculo>Abductores
+<Ejercicio>Sentadilla sumo</Ejercicio>
+<Ejercicio>Abductores en maquina</Ejercicio>
+</Musculo>
+<Musculo>Gemelos
+<Ejercicio>Elevacion de pies</Ejercicio>
+<Ejercicio>Press de gemelos</Ejercicio>
+</Musculo>
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Miercoles>
+
+<Jueves>
+<TipoDeEjercicios>Dia de empuje
+<GruposMuscularesATrabajar>Pecho, Triceps y Hombros
+<Musculo>Pecho: 
+<Ejercicio>Press inclinado con barra</Ejercicio>
+<Ejercicio>Press plano con barra</Ejercicio>
+<Ejercicio>Cruces con polea media</Ejercicio>
+<Ejercicio>Fondos en barras paralelas</Ejercicio>
+</Musculo>
+
+<Musculo>Triceps:
+<Ejercicio>Extensiones en polea</Ejercicio>
+<Ejercicio>extension de triceps por encima de la cabeza</Ejercicio>
+</Musculo>
+
+<Musculo>Hombros:
+<Ejercicio>Vuelos laterales</Ejercicio>
+<Ejercicio>Press militar</Ejercicio>
+<Ejercicio>Pajaros con mancuernas</Ejercicio>
+</Musculo>
+
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Jueves>
+
+<Viernes>
+<TipoDeEjercicios>Dia de hale
+<GruposMuscularesATrabajar>Espalda y Biceps
+<Musculo>Espalda
+<Ejercicio>Dominadas</Ejercicio>
+<Ejercicio>Jalones al pecho</Ejercicio>
+<Ejercicio>Remo en polea</Ejercicio>
+<Ejercicio>Rack pulls</Ejercicio>
+</Musculo>
+<Musculo>Biceps
+<Ejercicio>Curl con mancuerna abierto</Ejercicio>
+<Ejercicio>Curl biceps polea baja</Ejercicio>
+<Ejercicio>Curl biceps con barra</Ejercicio>
+</Musculo>
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Viernes>
+
+<Sabado>
+<TipoDeEjercicios>Dia de Pierna
+<GruposMuscularesATrabajar>Piernas (Parte trasera)
+<Musculo>Femorales
+<Ejercicio>Peso muerto</Ejercicio>
+<Ejercicio>Curl nordico</Ejercicio>
+<Ejercicio>Curl de femoral sentado</Ejercicio>
+</Musculo>
+<Musculo>Gluteo
+<Ejercicio>Hiperextensiones</Ejercicio>
+<Ejercicio>Patada gluteo</Ejercicio>
+<Ejercicio>Hip thrust</Ejercicio>
+</Musculo>
+<Musculo>Gemelos
+<Ejercicio>Elevacion de pies</Ejercicio>
+<Ejercicio>Press de gemelos</Ejercicio>
+</Musculo>
+</GruposMuscularesATrabajar>
+</TipoDeEjercicios>
+</Sabado>
+
+<Domingo>
+<TipoDeEjercicios>Dia de Descanso</TipoDeEjercicios>
+</Domingo>
+</DiasDeLaSemana>
