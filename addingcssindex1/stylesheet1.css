@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,100;0,400;1,100&family=Open+Sans:wght@300&family=Roboto+Mono:wght@700&family=Roboto:wght@100;400&family=Ubuntu:wght@300&display=swap%27');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.epa{
+    background-image: url(epa.jpg);
+    color:azure;
+  }
+  .container-fourth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #B1BCE6;
+    height: 125px;
+  } 
+.container-third{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: cornflowerblue;
+}
+.container-second{
+    background-color: #51C4D3;
+border: 1px solid black;
+border-radius: 5px;
+padding: 10px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.container-first{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+.mate{
+    color: #DBE6FD;
+}
+
+body
+{background-color: #126E82;}
