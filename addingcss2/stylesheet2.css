@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+
+body{
+    background-image: url(saje.jpg);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+ #container{
+    width: 90%;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+header{
+    background-color: #7dcfb6;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 4px dashed black; 
+}
+
+ul li{
+    list-style: none;
+}
+
+#content{
+    float: left;
+    width: calc(40% - 20px);
+    background-color:#00b2ca;
+    min-height: 500px;
+    padding: 10px;
+}
+.left{
+    background-color: #4fc5be;
+    float: left;
+    width: calc(30% - 20px);
+    min-height: 500px;
+    padding:10px;
+}
+.right{
+    background-color: #12A7B1;
+    float: left;
+    width: calc(30% - 20px);
+    min-height: 500px;
+    padding:10px;
+}
+
+main{
+    color: white;
+}
+footer{
+    float: left;
+    background:rgb(0, 0, 0);
+    color:white;
+    height: 100px;
+    line-height: 100px;
+    text-size-adjust: 0px auto;
+    width: 100%;
+}
