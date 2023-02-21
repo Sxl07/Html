@@ -5,19 +5,15 @@ function borrarArea() {
 }
 
 function calcularArea() {
-    // Obtener los valores de la base y la altura
+    
     var base = parseFloat(document.getElementById('base').value);
     var altura = parseFloat(document.getElementById('altura').value);
 
     // Calcular el área del triángulo
     var area = (base * altura) / 2;
 
-    //document.write('El área del triángulo es: ' + area+"\n\n"); // Mostrar en el cuerpo de la página
-    //document.getElementById('resultado').innerHTML = area; // Mostrar en la página
-    //console.log('El área del triángulo es: ' + area); // Mostrar en la consola del navegador
-    //alert('El área del triángulo es: ' + area); // Mostrar en una alerta
-
-    document.getElementById('resultado').innerHTML = area; // Mostrar en la página
+    
+    document.getElementById('resultado').innerHTML = area; 
 }
 
 
