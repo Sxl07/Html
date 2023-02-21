@@ -47,6 +47,7 @@ function InvertirNumero(numero) {
       numeroInvertido = numeroInvertido * 10 + digito;
       numero = Math.floor(numero / 10);
     }
+    alert("El resultado se imprimió en consola");
     console.log("el numero invertido es: "+numeroInvertido);
   }
 
@@ -56,7 +57,8 @@ function InvertirNumero(numero) {
  
 //fourth function
 function saludar(nombre) {
-     console.log("¡Hola, " + nombre + "!");
+      alert("El resultado se imprimió en consola");
+      console.log("¡Hola, " + nombre + "!");
     }
   
 function borrarSaludar() {
@@ -93,7 +95,8 @@ function Placas() {
         var genero = document.getElementById("gender").value;
         var edad = document.getElementById("age").value;
         var numero = document.getElementById("contact").value;
-    
+        
+        alert("El resultado se imprimió en consola");
         console.log("Nombre: " + nombre);
         console.log("Género: " + genero);
         console.log("Edad: " + edad);
@@ -141,8 +144,9 @@ function imprimirIntervalo(a,b) {
     var B=parseInt(b);
     if (A <= B) {
       console.log(A);
-      imprimirIntervalo(A + 1, B);
+      imprimirIntervalo(A+=1, B);
     }
+    alert("El resultado se imprimió en consola");
   }
   
 function borrarIntervalo() {
