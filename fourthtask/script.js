@@ -5,17 +5,9 @@ function borrarArea() {
 }
 
 function calcularArea() {
-    // Obtener los valores de la base y la altura
     var base = parseFloat(document.getElementById('base').value);
     var altura = parseFloat(document.getElementById('altura').value);
-
-    // Calcular el área del triángulo
     var area = (base * altura) / 2;
-
-    //document.write('El área del triángulo es: ' + area+"\n\n"); // Mostrar en el cuerpo de la página
-    //document.getElementById('resultado').innerHTML = area; // Mostrar en la página
-    //console.log('El área del triángulo es: ' + area); // Mostrar en la consola del navegador
-    //alert('El área del triángulo es: ' + area); // Mostrar en una alerta
 
     document.getElementById('resultado').innerHTML = area; // Mostrar en la página
 }
@@ -47,6 +39,7 @@ function InvertirNumero(numero) {
       numeroInvertido = numeroInvertido * 10 + digito;
       numero = Math.floor(numero / 10);
     }
+    alert("el resultado fue impreso en consola");
     console.log("el numero invertido es: "+numeroInvertido);
   }
 
@@ -56,8 +49,9 @@ function InvertirNumero(numero) {
  
 //fourth function
 function saludar(nombre) {
-     console.log("¡Hola, " + nombre + "!");
-    }
+      alert("el resultado fue impreso en consola");
+      console.log("¡Hola, " + nombre + "!");
+}
   
 function borrarSaludar() {
     document.getElementById("nombreUsuario").value="";
@@ -93,7 +87,8 @@ function Placas() {
         var genero = document.getElementById("gender").value;
         var edad = document.getElementById("age").value;
         var numero = document.getElementById("contact").value;
-    
+        
+        alert("el resultado fue impreso en consola");
         console.log("Nombre: " + nombre);
         console.log("Género: " + genero);
         console.log("Edad: " + edad);
@@ -140,6 +135,7 @@ function imprimirIntervalo(a,b) {
     var A=parseInt(a);
     var B=parseInt(b);
     if (A <= B) {
+      alert("el resultado fue impreso en consola");
       console.log(A);
       imprimirIntervalo(A + 1, B);
     }
@@ -191,4 +187,3 @@ function convertir() {
 function  borrarGrados() {
   document.getElementById("grados").value="";
 }
-    
