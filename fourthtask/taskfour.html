@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<title>10 funciones</title>
+</head>
+<body>
+<div class="left">    
+    <div id="first">    
+        <h1>Calculadora de área de triángulo</h1>
+        <p>Ingresa la base y la altura del triángulo:</p>
+        <div class="test2">
+            <p class="texto">Base</p>
+            <input type="text" id="base">
+            <button onclick="calcularArea()">Calcular área</button>
+        </div>
+        <div class="test2">
+            <p class="texto">Altura:</p>
+            <input type="text" id="altura">
+            <button type="reset" onclick="borrarArea()">Borrar</button>
+        </div>
+            <p>El resultado es: <span id="resultado"></span></p>
+    </div>
+
+        <div id="second">
+            <h1>Calculadora de sucesión de fibonacci</h1>
+            <p>Ingresa la posición para hallar en la sucesión de fibonacci:</p>
+            <input type="text" id="numeroFibonacci">
+            <button onclick="calcfibonacci(document.getElementById('numeroFibonacci').value)">Calcular número</button>
+            <button type="reset" onclick=borrarFibonacci()>Borrar</button>
+        </div>
+    
+        <div id="third">
+            <h1>Invertir un número</h1>
+            <p>Ingresa el número a invertir:</p>
+            <input type="text" id="numeroInvertido">
+            <button onclick="InvertirNumero(document.getElementById('numeroInvertido').value)">Invertir número</button>
+            <button type="reset" onclick=BorrarNumeroInvertido()>Borrar</button>
+        </div>
+    
+        <div id="fourth">
+            <h1>Saludar al usuario</h1>
+            <p>Ingresa tu nombre</p>
+            <input type="text" id="nombreUsuario">
+            <button onclick="saludar(document.getElementById('nombreUsuario').value)">Saludar</button>
+            <button type="reset" onclick="borrarSaludar()">Borrar</button>
+        </div>
+    
+        <div id="fifth">
+            <h1>Generar placas</h1> 
+            <p>Presiona el boton para generar tu placa</p>
+            <input type="text" readonly id="placas" >
+            <button onclick="generarPlacas(document.getElementById('placas').value)">Generar placas</button>
+            <button type="reset" onclick="borrarPlacas()">Borrar</button>
+        </div>
+</div>
+
+<div class="right">
+    
+    <div id="sixth">
+        <h1>Ingresar una persona con propiedades</h1>
+        <p>Ingresa los siguientes datos:</p>
+
+<div class="father">            
+    <div>
+        <p>Ingrese el nombre:</p>
+        <input type="text" id="name">
+        <p>Ingrese el genero:</p>
+        <input type="text" id="gender">
+        
+    </div>
+    <div >
+        
+                <p>Ingrese la edad:</p>
+                <input type="text" id="age">
+                <p>Ingrese el celular de contacto:</p>
+                <input type="text" id="contact">
+        
+    </div>
+</div>
+    <button onclick="registrar()">Registrar</button>
+    <button type="reset" onclick=borrarRegistro()>Borrar</button>
+    
+</div>
+    
+    <div id="seventh">
+        <h1>Tirar Dado</h1>
+        <p>Presiona el boton para lanzar el dado</p>
+        <button onclick="Dados()">Tirar dado</button>
+        <section id="dados"></section>
+    </div>
+    
+    <div id="eighth">
+        <h1>Imprimir intervalo</h1>
+        <p>Ingresa la cota inferior del rango</p>
+        <input type="text" id="inferior">
+        <p>Ingresa la cota superior del rango</p>
+        <input type="text" id="superior">
+        <button onclick="imprimirIntervalo(document.getElementById('inferior').value,document.getElementById('superior').value)">Imprimir intervalo</button>
+        <button type="reset" onclick="borrarIntervalo()">Borrar</button>
+    </div>
+    
+    <div id="nineth">
+        <h1>Ingrese profesiones</h1>
+        <input type="text" id="roles" placeholder="Ingresa los roles separados por comas">
+        <button onclick="obtenerRolAleatorio()">Obtener rol aleatorio</button>
+        <button type="reset" onclick="borrarRol()">Borrar</button>
+    </div>
+    
+    <div id="tenth">
+        <h1>Calcular potencia de 2</h1>
+        <p>Ingrese la potencia(x) que va a elevar a 2.  Ejemplo:(2<sup>x</sup>)</p>
+        <input type="text" id="potencia">
+        <button onclick="calcularPotenciaDeDos(document.getElementById('potencia').value)">Calcular potencia</button>
+        <button type="reset" onclick="borrarPotencia()">Borrar</button>
+        <p>El resultado de 2 <sup><span id="variable">x</span></sup> es: <span id="resultadoPotencia"></span></p>
+    </div>
+</div>
+<footer>
+    <h2>Convertir de grados farenheit a celsius</h2>
+    <p>Ingrese los grados en farenheit: </p>
+    <input type="text" id="grados">
+    <button onclick="convertir()">Convertir a celsius</button>
+    <button type="reset" onclick="borrarGrados()">Borrar</button>
+    <p>Los grados en celsius son: <span id="demo"></span> </p>
+</footer>
+</body>
+</html>
